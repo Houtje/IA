@@ -3,25 +3,29 @@ package formui;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.text.NumberFormat;
 
 public class StaticForm {
     private JPanel FormView;
     private JLabel minPriceLabel;
     private JLabel bedroomsLabel;
-    private JLabel sizeLabel;
+    private JLabel minSizeLabel;
     private JLabel maxPriceLabel;
-    private JFormattedTextField sizeTextField;
+    private JLabel maxSizeLabel;
+    private JFormattedTextField minSizeTextField;
     private JFormattedTextField bedroomsTextField;
     private JFormattedTextField minPriceTextField;
     private JFormattedTextField maxPriceTextField;
     private JButton submitButton;
+    private JFormattedTextField maxSizeTextField;
+    private JCheckBox transportationCheckBox;
 
     // Variables usefull for the agent
     public int minPrice;
     public int maxPrice;
     public int bedrooms;
-    public int size;
+    public int minSize;
+    public int maxSize;
+    public boolean transportation;
 
 
     public StaticForm() {
@@ -30,10 +34,14 @@ public class StaticForm {
         submitButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                size = Integer.parseInt(sizeTextField.getText());
+
+                minSize = Integer.parseInt(minSizeTextField.getText());
+                maxSize = Integer.parseInt(maxSizeTextField.getText());
                 bedrooms = Integer.parseInt(bedroomsTextField.getText());
                 minPrice = Integer.parseInt(minPriceTextField.getText());
                 maxPrice = Integer.parseInt(maxPriceTextField.getText());
+
+                transportation = transportationCheckBox.isSelected();
             }
         });
 
