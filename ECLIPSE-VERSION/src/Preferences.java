@@ -105,11 +105,17 @@ public class Preferences {
 		studentPane.setRightComponent(rdbtnWorking);
 		
 		// Load the preferences when the submit button is clicked
+		//
+		//
+		// Basically all logic gets handled in here
+		
 		JButton btnSubmit = new JButton("Submit preferences");
 		btnSubmit.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				size = Integer.parseInt(sizeTextField.getText());
 				bedrooms  = Integer.parseInt(bedroomTextField.getText());
+				transit = false;
+				parking = false;
 				
 				// Deduce
 				if(bedrooms > 3)
