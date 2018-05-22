@@ -4,12 +4,15 @@ import javax.swing.JFrame;
 import javax.swing.JSplitPane;
 import java.awt.BorderLayout;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JSlider;
 import java.awt.GridLayout;
 import javax.swing.JTextField;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import javax.swing.JRadioButton;
+import javax.swing.ButtonGroup;
 
 public class Preferences {
 
@@ -20,8 +23,15 @@ public class Preferences {
 	// Preferences
 	public int size;
 	public int bedrooms;
-	public int gardenPref;
-	public int kitchenPref;
+	
+	// To deduce
+	public int bathrooms;
+	public String kitchenSize;
+	public boolean transit;
+	public boolean parking;
+	
+	
+	private final ButtonGroup workButtonGroup = new ButtonGroup();
 
 	/**
 	 * Launch the application.
@@ -54,9 +64,10 @@ public class Preferences {
 		frmPreferences.setTitle("Preferences");
 		frmPreferences.setBounds(100, 100, 450, 300);
 		frmPreferences.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frmPreferences.getContentPane().setLayout(new GridLayout(5, 1, 1, 1));
+		frmPreferences.getContentPane().setLayout(new GridLayout(4, 1, 1, 1));
 		
 		JSplitPane sizePane = new JSplitPane();
+		sizePane.setResizeWeight(0.5);
 		frmPreferences.getContentPane().add(sizePane);
 		
 		JLabel lblSize = new JLabel("Preferred size in m^2");
@@ -68,6 +79,7 @@ public class Preferences {
 		sizeTextField.setColumns(10);
 		
 		JSplitPane bedroomPane = new JSplitPane();
+		bedroomPane.setResizeWeight(0.5);
 		frmPreferences.getContentPane().add(bedroomPane);
 		
 		JLabel lblBedrooms = new JLabel("Preffered number of bedrooms");
@@ -78,34 +90,19 @@ public class Preferences {
 		bedroomPane.setRightComponent(bedroomTextField);
 		bedroomTextField.setColumns(10);
 		
-		JSplitPane gardenPane = new JSplitPane();
-		frmPreferences.getContentPane().add(gardenPane);
 		
-		JLabel lblGarden = new JLabel("Garden importance");
-		gardenPane.setLeftComponent(lblGarden);
+		JSplitPane studentPane = new JSplitPane();
+		studentPane.setResizeWeight(0.5);
+		frmPreferences.getContentPane().add(studentPane);
 		
-		JSlider gardenSlider = new JSlider();
-		gardenSlider.setMinorTickSpacing(1);
-		gardenSlider.setMinimum(1);
-		gardenSlider.setMaximum(5);
-		gardenSlider.setSnapToTicks(true);
-		gardenSlider.setPaintTicks(true);
-		gardenSlider.setPaintLabels(true);
-		gardenPane.setRightComponent(gardenSlider);
+		JRadioButton rdbtnStudent = new JRadioButton("Student");
+		rdbtnStudent.setSelected(true);
+		workButtonGroup.add(rdbtnStudent);
+		studentPane.setLeftComponent(rdbtnStudent);
 		
-		JSplitPane kitchenPane = new JSplitPane();
-		frmPreferences.getContentPane().add(kitchenPane);
-		
-		JLabel lblKitchen = new JLabel("Kitchen importance");
-		kitchenPane.setLeftComponent(lblKitchen);
-		
-		JSlider kitchenSlider = new JSlider();
-		kitchenSlider.setMinimum(1);
-		kitchenSlider.setPaintTicks(true);
-		kitchenSlider.setPaintLabels(true);
-		kitchenSlider.setMinorTickSpacing(1);
-		kitchenSlider.setMaximum(5);
-		kitchenPane.setRightComponent(kitchenSlider);
+		JRadioButton rdbtnWorking = new JRadioButton("Working");
+		workButtonGroup.add(rdbtnWorking);
+		studentPane.setRightComponent(rdbtnWorking);
 		
 		// Load the preferences when the submit button is clicked
 		JButton btnSubmit = new JButton("Submit preferences");
@@ -113,10 +110,37 @@ public class Preferences {
 			public void actionPerformed(ActionEvent arg0) {
 				size = Integer.parseInt(sizeTextField.getText());
 				bedrooms  = Integer.parseInt(bedroomTextField.getText());
-				kitchenPref = kitchenSlider.getValue();
-				gardenPref = gardenSlider.getValue();
+				
+				// Deduce
+				if(bedrooms > 3)
+				{
+					bathrooms = 2;
+					kitchenSize = "Big";
+				}
+				else
+				{
+					bathrooms = 1;
+					kitchenSize = "Regular";
+				}
+				
+				String location;
+				
+				if(rdbtnStudent.isSelected())
+				{
+					transit = true;
+					location = "Close to public transportation";
+				}
+				else
+				{
+					parking = true;
+					location = "With parking space";
+				}						
+				
+				// Output deductions
+			    JOptionPane.showMessageDialog(null, "Deduced amount of bathrooms: " + bathrooms + '\n' + "Deduced size of kitchen: " + kitchenSize + '\n' + "Location: " + location);
 			}
 		});
+
 		
 		frmPreferences.getContentPane().add(btnSubmit);
 	}
