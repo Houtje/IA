@@ -1,0 +1,1292 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/pallegra/ontologies/2018/4/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/pallegra/ontologies/2018/4/untitled-ontology-3">
+    <Prefix name="" IRI="http://www.semanticweb.org/pallegra/ontologies/2018/4/untitled-ontology-3#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Balcony"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#buildingFacilities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Room"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#doubleSink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#studentFriendly"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSpace"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isCloseToPT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#small"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bedroom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRoom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Living_Room"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#amountGarden"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Single"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Swing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#kitchenFacilities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Extra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#likesLuxury"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Building"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trampoline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Preferences"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#specialNeeds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#House"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2_Bathroom"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#amountGarage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLiked"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2_Bedroom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Facilities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#houseFeatures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bathroomFacilities"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#casa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLivingroom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Garage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#petOwner"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#amountOutdoor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasKitchen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3_Bathroom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#freePublic"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#amountBathroom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#carOwner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1_Bedroom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBathroom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Retired"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOutdoor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shed"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#amountBalcony"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#carNecessary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Couple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Basement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#outdoorFacilities"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#studio88"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDoublesink"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#amountSpace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#houseProportions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#paidPublic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#workFriendly"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCloseNeighbours"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Working"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#doubleGlasses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bathroom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cornerHouse"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#amountKitchen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4_Bedroom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFacility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#parkingLot"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#amountBedroom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#disable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rowHouse"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBedroom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRoom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#smallKids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1_Bathroom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Terrace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#private"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3_Bedroom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Family"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BBQ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hasOutdoor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#studio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bathtube"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indoor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#familyFriendly"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#studentMoney"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Garden"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#housss"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#freeHouse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#userFeatures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dishwasher"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#disableAccessibility"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSuitableFor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#apartment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Space"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#amountLivingroom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kitchen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Outdoor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#amountParking"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#amountExtra"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#amountTerrace"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hous1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isCheap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Student"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#apartment"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#House"/>
+            <DataHasValue>
+                <DataProperty IRI="#hasCloseNeighbours"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#familyFriendly"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#House"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isSuitableFor"/>
+                <Class IRI="#Family"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#familyFriendly"/>
+        <ObjectUnionOf>
+            <ObjectIntersectionOf>
+                <Class IRI="#House"/>
+                <DataHasValue>
+                    <DataProperty IRI="#amountBedroom"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <DataHasValue>
+                <DataProperty IRI="#amountBedroom"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#amountBedroom"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#amountBedroom"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+            </DataHasValue>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#freeHouse"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#House"/>
+            <DataHasValue>
+                <DataProperty IRI="#amountGarden"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#freeHouse"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#House"/>
+            <DataHasValue>
+                <DataProperty IRI="#hasCloseNeighbours"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#freeHouse"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#House"/>
+            <DataHasValue>
+                <DataProperty IRI="#isCheap"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#hasOutdoor"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#House"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isSuitableFor"/>
+                <Class IRI="#petOwner"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#hasOutdoor"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#House"/>
+            <DataHasValue>
+                <DataProperty IRI="#amountOutdoor"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#petOwner"/>
+        <ObjectUnionOf>
+            <DataHasValue>
+                <DataProperty IRI="#amountOutdoor"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#amountOutdoor"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+            </DataHasValue>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#specialNeeds"/>
+        <DataHasValue>
+            <DataProperty IRI="#disableAccessibility"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </DataHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#studentFriendly"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#House"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isSuitableFor"/>
+                <Class IRI="#Student"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#studentFriendly"/>
+        <ObjectIntersectionOf>
+            <DataHasValue>
+                <DataProperty IRI="#isCheap"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#isCloseToPT"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#studio"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#House"/>
+            <DataHasValue>
+                <DataProperty IRI="#amountBathroom"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#amountBedroom"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#amountKitchen"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#amountLivingroom"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#studio"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#House"/>
+            <DataHasValue>
+                <DataProperty IRI="#isCheap"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#workFriendly"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#House"/>
+            <ObjectUnionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#amountParking"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#isCloseToPT"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#workFriendly"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#House"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isSuitableFor"/>
+                <Class IRI="#Working"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#1_Bathroom"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#House"/>
+            <ObjectUnionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#amountBedroom"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#amountBedroom"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+                </DataHasValue>
+            </ObjectUnionOf>
+            <DataHasValue>
+                <DataProperty IRI="#amountBathroom"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#1_Bedroom"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#House"/>
+            <DataHasValue>
+                <DataProperty IRI="#amountBathroom"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#amountBedroom"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#2_Bathroom"/>
+        <Class IRI="#3_Bedroom"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#2_Bathroom"/>
+        <Class IRI="#4_Bedroom"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#3_Bathroom"/>
+        <Class IRI="#4_Bedroom"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#BBQ"/>
+        <Class IRI="#outdoorFacilities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Balcony"/>
+        <Class IRI="#Outdoor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basement"/>
+        <Class IRI="#Room"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bathroom"/>
+        <Class IRI="#Room"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bathtube"/>
+        <Class IRI="#bathroomFacilities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bedroom"/>
+        <Class IRI="#Room"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Couple"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disable"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Extra"/>
+        <Class IRI="#Space"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Facilities"/>
+        <Class IRI="#houseFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Family"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Garage"/>
+        <Class IRI="#Outdoor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Garden"/>
+        <Class IRI="#Outdoor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#House"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indoor"/>
+        <Class IRI="#Space"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kitchen"/>
+        <Class IRI="#Room"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Living_Room"/>
+        <Class IRI="#Room"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Outdoor"/>
+        <Class IRI="#Space"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pool"/>
+        <Class IRI="#outdoorFacilities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Preferences"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Retired"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Room"/>
+        <Class IRI="#Indoor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shed"/>
+        <Class IRI="#outdoorFacilities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Single"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Student"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Swing"/>
+        <Class IRI="#outdoorFacilities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Terrace"/>
+        <Class IRI="#Outdoor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trampoline"/>
+        <Class IRI="#outdoorFacilities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Working"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#apartment"/>
+        <Class IRI="#House"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bathroomFacilities"/>
+        <Class IRI="#Facilities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#buildingFacilities"/>
+        <Class IRI="#Facilities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#carOwner"/>
+        <Class IRI="#userFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cornerHouse"/>
+        <Class IRI="#House"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dishwasher"/>
+        <Class IRI="#kitchenFacilities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#doubleGlasses"/>
+        <Class IRI="#buildingFacilities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#doubleSink"/>
+        <Class IRI="#bathroomFacilities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#familyFriendly"/>
+        <Class IRI="#houseFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#freeHouse"/>
+        <Class IRI="#House"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#freePublic"/>
+        <Class IRI="#parkingLot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hasOutdoor"/>
+        <Class IRI="#houseFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#houseFeatures"/>
+        <Class IRI="#House"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kitchenFacilities"/>
+        <Class IRI="#Facilities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#likesLuxury"/>
+        <Class IRI="#userFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#outdoorFacilities"/>
+        <Class IRI="#Facilities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#paidPublic"/>
+        <Class IRI="#parkingLot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#parkingLot"/>
+        <Class IRI="#Extra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#petOwner"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#private"/>
+        <Class IRI="#parkingLot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rowHouse"/>
+        <Class IRI="#House"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#smallKids"/>
+        <Class IRI="#Family"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#specialNeeds"/>
+        <Class IRI="#houseFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#studentFriendly"/>
+        <Class IRI="#houseFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#studio"/>
+        <Class IRI="#apartment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#userFeatures"/>
+        <Class IRI="#Preferences"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#workFriendly"/>
+        <Class IRI="#houseFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1_Bathroom"/>
+        <Class IRI="#houseProportions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1_Bedroom"/>
+        <Class IRI="#houseProportions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2_Bathroom"/>
+        <Class IRI="#houseProportions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2_Bedroom"/>
+        <Class IRI="#houseProportions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3_Bathroom"/>
+        <Class IRI="#houseProportions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3_Bedroom"/>
+        <Class IRI="#houseProportions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4_Bedroom"/>
+        <Class IRI="#houseProportions"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#BBQ"/>
+        <Class IRI="#Pool"/>
+        <Class IRI="#Shed"/>
+        <Class IRI="#Swing"/>
+        <Class IRI="#Trampoline"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Basement"/>
+        <Class IRI="#Bathroom"/>
+        <Class IRI="#Bedroom"/>
+        <Class IRI="#Kitchen"/>
+        <Class IRI="#Living_Room"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#bathroomFacilities"/>
+        <Class IRI="#buildingFacilities"/>
+        <Class IRI="#kitchenFacilities"/>
+        <Class IRI="#outdoorFacilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#freePublic"/>
+        <Class IRI="#paidPublic"/>
+        <Class IRI="#private"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#apartment"/>
+        <NamedIndividual IRI="#casa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#House"/>
+        <NamedIndividual IRI="#disable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#House"/>
+        <NamedIndividual IRI="#housss"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBalcony"/>
+        <NamedIndividual IRI="#casa"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBathroom"/>
+        <NamedIndividual IRI="#casa"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBedroom"/>
+        <NamedIndividual IRI="#casa"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountKitchen"/>
+        <NamedIndividual IRI="#casa"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountParking"/>
+        <NamedIndividual IRI="#disable"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disableAccessibility"/>
+        <NamedIndividual IRI="#disable"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBathroom"/>
+        <NamedIndividual IRI="#hous1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBedroom"/>
+        <NamedIndividual IRI="#hous1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountGarden"/>
+        <NamedIndividual IRI="#hous1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountTerrace"/>
+        <NamedIndividual IRI="#hous1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBathroom"/>
+        <NamedIndividual IRI="#housss"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBedroom"/>
+        <NamedIndividual IRI="#housss"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBathroom"/>
+        <NamedIndividual IRI="#small"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseNeighbours"/>
+        <NamedIndividual IRI="#small"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToPT"/>
+        <NamedIndividual IRI="#small"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBathroom"/>
+        <NamedIndividual IRI="#studio88"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBedroom"/>
+        <NamedIndividual IRI="#studio88"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountKitchen"/>
+        <NamedIndividual IRI="#studio88"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountLivingroom"/>
+        <NamedIndividual IRI="#studio88"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disableAccessibility"/>
+        <NamedIndividual IRI="#studio88"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToPT"/>
+        <NamedIndividual IRI="#studio88"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasBathroom"/>
+        <ObjectProperty IRI="#hasRoom"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasBedroom"/>
+        <ObjectProperty IRI="#hasRoom"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDoublesink"/>
+        <ObjectProperty IRI="#hasFacility"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasFacility"/>
+        <ObjectProperty IRI="#isRoom"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasKitchen"/>
+        <ObjectProperty IRI="#hasRoom"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasLivingroom"/>
+        <ObjectProperty IRI="#hasRoom"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasOutdoor"/>
+        <ObjectProperty IRI="#hasSpace"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasRoom"/>
+        <ObjectProperty IRI="#hasSpace"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasRoom"/>
+        <ObjectProperty IRI="#isRoom"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBathroom"/>
+        <Class IRI="#House"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBedroom"/>
+        <Class IRI="#House"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDoublesink"/>
+        <Class IRI="#Bathroom"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFacility"/>
+        <Class IRI="#Room"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasKitchen"/>
+        <Class IRI="#House"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLivingroom"/>
+        <Class IRI="#House"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOutdoor"/>
+        <Class IRI="#House"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRoom"/>
+        <Class IRI="#Building"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSpace"/>
+        <Class IRI="#Building"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLiked"/>
+        <Class IRI="#Building"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLiked"/>
+        <Class IRI="#Space"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLiked"/>
+        <Class IRI="#houseFeatures"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRoom"/>
+        <Class IRI="#Room"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSuitableFor"/>
+        <Class IRI="#Building"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBathroom"/>
+        <Class IRI="#Bathroom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBedroom"/>
+        <Class IRI="#Bedroom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDoublesink"/>
+        <Class IRI="#doubleSink"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFacility"/>
+        <Class IRI="#Facilities"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasKitchen"/>
+        <Class IRI="#Kitchen"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLivingroom"/>
+        <Class IRI="#Living_Room"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasOutdoor"/>
+        <Class IRI="#Outdoor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRoom"/>
+        <Class IRI="#Room"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSpace"/>
+        <Class IRI="#Space"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isLiked"/>
+        <Class IRI="#Preferences"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isLiked"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSuitableFor"/>
+        <Class IRI="#Preferences"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSuitableFor"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSuitableFor"/>
+        <Class IRI="#houseFeatures"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSuitableFor"/>
+        <Class IRI="#userFeatures"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#amountBalcony"/>
+        <DataProperty IRI="#amountOutdoor"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#amountBathroom"/>
+        <DataProperty IRI="#amountSpace"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#amountBedroom"/>
+        <DataProperty IRI="#amountSpace"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#amountExtra"/>
+        <DataProperty IRI="#amountSpace"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#amountGarage"/>
+        <DataProperty IRI="#amountOutdoor"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#amountGarden"/>
+        <DataProperty IRI="#amountOutdoor"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#amountKitchen"/>
+        <DataProperty IRI="#amountSpace"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#amountLivingroom"/>
+        <DataProperty IRI="#amountSpace"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#amountOutdoor"/>
+        <DataProperty IRI="#amountSpace"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#amountParking"/>
+        <DataProperty IRI="#amountExtra"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#amountTerrace"/>
+        <DataProperty IRI="#amountOutdoor"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#amountBalcony"/>
+        <Class IRI="#House"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#amountBathroom"/>
+        <Class IRI="#House"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#amountBedroom"/>
+        <Class IRI="#House"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#amountGarage"/>
+        <Class IRI="#House"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#amountGarden"/>
+        <Class IRI="#House"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#amountKitchen"/>
+        <Class IRI="#House"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#amountLivingroom"/>
+        <Class IRI="#House"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#amountOutdoor"/>
+        <Class IRI="#House"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#amountParking"/>
+        <Class IRI="#House"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#amountTerrace"/>
+        <Class IRI="#House"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#carNecessary"/>
+        <Class IRI="#House"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#disableAccessibility"/>
+        <Class IRI="#House"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCloseNeighbours"/>
+        <Class IRI="#Building"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isCheap"/>
+        <Class IRI="#House"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isCloseToPT"/>
+        <Class IRI="#House"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#studentMoney"/>
+        <Class IRI="#Student"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#amountBalcony"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#amountBathroom"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#amountBedroom"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#amountGarage"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#amountGarden"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#amountKitchen"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#amountLivingroom"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#amountOutdoor"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#amountParking"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#amountTerrace"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#carNecessary"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#disableAccessibility"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCloseNeighbours"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isCheap"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isCloseToPT"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#studentMoney"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DisjointDataProperties>
+        <DataProperty IRI="#carNecessary"/>
+        <DataProperty IRI="#isCloseToPT"/>
+    </DisjointDataProperties>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
