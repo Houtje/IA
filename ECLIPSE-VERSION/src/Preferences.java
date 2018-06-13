@@ -23,10 +23,10 @@ public class Preferences {
 	
 	// Preferences
 	public int size;
+	public int budget;
 	public int bedrooms;	
 	public int bathrooms;
 	public int toilets;
-	public int budget;
 	public int kitchens;
 	public int garages;
 	public int gardens; 
@@ -48,6 +48,7 @@ public class Preferences {
 	private JTextField balconyTextField;
 	private JTextField livingTextField;
 	private JTextField poolTextField;
+	private JTextField budgetTextField;
 
 	/**
 	 * Launch the application.
@@ -78,9 +79,9 @@ public class Preferences {
 	private void initialize() {
 		frmPreferences = new JFrame();
 		frmPreferences.setTitle("Preferences");
-		frmPreferences.setBounds(100, 100, 450, 300);
+		frmPreferences.setBounds(100, 100, 450, 399);
 		frmPreferences.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frmPreferences.getContentPane().setLayout(new GridLayout(12, 1, 1, 1));
+		frmPreferences.getContentPane().setLayout(new GridLayout(13, 1, 1, 1));
 		
 		JSplitPane sizePane = new JSplitPane();
 		sizePane.setResizeWeight(0.5);
@@ -92,6 +93,16 @@ public class Preferences {
 		sizeTextField = new JTextField();
 		sizePane.setRightComponent(sizeTextField);
 		sizeTextField.setColumns(10);
+		
+		JSplitPane splitPane_8 = new JSplitPane();
+		frmPreferences.getContentPane().add(splitPane_8);
+		
+		JLabel lblNewLabel_6 = new JLabel("Max Budget");
+		splitPane_8.setLeftComponent(lblNewLabel_6);
+		
+		budgetTextField = new JTextField();
+		splitPane_8.setRightComponent(budgetTextField);
+		budgetTextField.setColumns(10);
 		
 		JSplitPane bedroomPane = new JSplitPane();
 		bedroomPane.setResizeWeight(0.5);
@@ -115,7 +126,9 @@ public class Preferences {
 				
 				// Get all the available preferences integer				
 				// Size
-				size = readAndSetIntPreference(sizeTextField.getText());				
+				size = readAndSetIntPreference(sizeTextField.getText());			
+				// Budget
+				budget = readAndSetIntPreference(budgetTextField.getText());				
 				// Bedrooms
 				bedrooms = readAndSetIntPreference(bedroomTextField.getText());	
 				// Bathrooms
