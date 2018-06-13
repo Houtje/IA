@@ -13,6 +13,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JRadioButton;
 import javax.swing.ButtonGroup;
+import javax.swing.UIManager;
 
 public class Preferences {
 
@@ -22,16 +23,31 @@ public class Preferences {
 	
 	// Preferences
 	public int size;
-	public int bedrooms;
-	
-	// To deduce
+	public int bedrooms;	
 	public int bathrooms;
-	public String kitchenSize;
-	public boolean transit;
-	public boolean parking;
+	public int toilets;
+	public int budget;
+	public int kitchens;
+	public int garages;
+	public int gardens; 
+	public int terraces;
+	public int balconies;
+	public int livingrooms;
+	public int pools;
+
+
 	
 	
 	private final ButtonGroup workButtonGroup = new ButtonGroup();
+	private JTextField bathroomTextField;
+	private JTextField toiletTextField;
+	private JTextField kitchenTextField;
+	private JTextField garageTextField;
+	private JTextField gardenTextField;
+	private JTextField terraceTextField;
+	private JTextField balconyTextField;
+	private JTextField livingTextField;
+	private JTextField poolTextField;
 
 	/**
 	 * Launch the application.
@@ -64,7 +80,7 @@ public class Preferences {
 		frmPreferences.setTitle("Preferences");
 		frmPreferences.setBounds(100, 100, 450, 300);
 		frmPreferences.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frmPreferences.getContentPane().setLayout(new GridLayout(4, 1, 1, 1));
+		frmPreferences.getContentPane().setLayout(new GridLayout(12, 1, 1, 1));
 		
 		JSplitPane sizePane = new JSplitPane();
 		sizePane.setResizeWeight(0.5);
@@ -74,7 +90,6 @@ public class Preferences {
 		sizePane.setLeftComponent(lblSize);
 		
 		sizeTextField = new JTextField();
-		sizeTextField.setText("100");
 		sizePane.setRightComponent(sizeTextField);
 		sizeTextField.setColumns(10);
 		
@@ -82,27 +97,12 @@ public class Preferences {
 		bedroomPane.setResizeWeight(0.5);
 		frmPreferences.getContentPane().add(bedroomPane);
 		
-		JLabel lblBedrooms = new JLabel("Preffered number of bedrooms");
+		JLabel lblBedrooms = new JLabel("Prefered bedrooms");
 		bedroomPane.setLeftComponent(lblBedrooms);
 		
 		bedroomTextField = new JTextField();
-		bedroomTextField.setText("0");
 		bedroomPane.setRightComponent(bedroomTextField);
 		bedroomTextField.setColumns(10);
-		
-		
-		JSplitPane studentPane = new JSplitPane();
-		studentPane.setResizeWeight(0.5);
-		frmPreferences.getContentPane().add(studentPane);
-		
-		JRadioButton rdbtnStudent = new JRadioButton("Student");
-		rdbtnStudent.setSelected(true);
-		workButtonGroup.add(rdbtnStudent);
-		studentPane.setLeftComponent(rdbtnStudent);
-		
-		JRadioButton rdbtnWorking = new JRadioButton("Working");
-		workButtonGroup.add(rdbtnWorking);
-		studentPane.setRightComponent(rdbtnWorking);
 		
 		// Load the preferences when the submit button is clicked
 		//
@@ -112,43 +112,140 @@ public class Preferences {
 		JButton btnSubmit = new JButton("Submit preferences");
 		btnSubmit.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				size = Integer.parseInt(sizeTextField.getText());
-				bedrooms  = Integer.parseInt(bedroomTextField.getText());
-				transit = false;
-				parking = false;
 				
-				// Deduce
-				if(bedrooms > 3)
-				{
-					bathrooms = 2;
-					kitchenSize = "Big";
-				}
-				else
-				{
-					bathrooms = 1;
-					kitchenSize = "Regular";
-				}
-				
-				String location;
-				
-				if(rdbtnStudent.isSelected())
-				{
-					transit = true;
-					location = "Close to public transportation";
-				}
-				else
-				{
-					parking = true;
-					location = "With parking space";
-				}						
-				
-				// Output deductions
-			    JOptionPane.showMessageDialog(null, "Deduced amount of bathrooms: " + bathrooms + '\n' + "Deduced size of kitchen: " + kitchenSize + '\n' + "Location: " + location);
+				// Get all the available preferences integer				
+				// Size
+				size = readAndSetIntPreference(sizeTextField.getText());				
+				// Bedrooms
+				bedrooms = readAndSetIntPreference(bedroomTextField.getText());	
+				// Bathrooms
+				bathrooms =readAndSetIntPreference(bathroomTextField.getText());					
+				// Toilets
+				toilets =readAndSetIntPreference(toiletTextField.getText());	
+				// Kitchens
+				kitchens =readAndSetIntPreference(kitchenTextField.getText());					
+				// Garages
+				garages =readAndSetIntPreference(garageTextField.getText());
+				// Gardens
+				gardens =readAndSetIntPreference(gardenTextField.getText());
+				// Terraces
+				terraces =readAndSetIntPreference(terraceTextField.getText());
+				// Balconies
+				balconies =readAndSetIntPreference(balconyTextField.getText());
+				// Livingrooms
+				livingrooms =readAndSetIntPreference(livingTextField.getText());
+				// Pools
+				pools =readAndSetIntPreference(poolTextField.getText());				
+					
 			}
 		});
+		
+		JSplitPane bathroomPane = new JSplitPane();
+		frmPreferences.getContentPane().add(bathroomPane);
+		
+		JLabel lblPreferedBathrooms = new JLabel("Prefered bathrooms");
+		bathroomPane.setLeftComponent(lblPreferedBathrooms);
+		
+		bathroomTextField = new JTextField();
+		bathroomPane.setRightComponent(bathroomTextField);
+		bathroomTextField.setColumns(10);
+		
+		JSplitPane splitPane = new JSplitPane();
+		frmPreferences.getContentPane().add(splitPane);
+		
+		JLabel lblPreferedToilets = new JLabel("Prefered toilets");
+		splitPane.setLeftComponent(lblPreferedToilets);
+		
+		toiletTextField = new JTextField();
+		splitPane.setRightComponent(toiletTextField);
+		toiletTextField.setColumns(10);
+		
+		JSplitPane splitPane_6 = new JSplitPane();
+		frmPreferences.getContentPane().add(splitPane_6);
+		
+		JLabel lblNewLabel_4 = new JLabel("Prefered livingrooms");
+		splitPane_6.setLeftComponent(lblNewLabel_4);
+		
+		livingTextField = new JTextField();
+		splitPane_6.setRightComponent(livingTextField);
+		livingTextField.setColumns(10);
+		
+		JSplitPane splitPane_1 = new JSplitPane();
+		frmPreferences.getContentPane().add(splitPane_1);
+		
+		JLabel lblPref = new JLabel("Prefered kitchens");
+		splitPane_1.setLeftComponent(lblPref);
+		
+		kitchenTextField = new JTextField();
+		splitPane_1.setRightComponent(kitchenTextField);
+		kitchenTextField.setColumns(10);
+		
+		JSplitPane splitPane_2 = new JSplitPane();
+		frmPreferences.getContentPane().add(splitPane_2);
+		
+		garageTextField = new JTextField();
+		splitPane_2.setRightComponent(garageTextField);
+		garageTextField.setColumns(10);
+		
+		JLabel lblNewLabel = new JLabel("Prefered garages");
+		splitPane_2.setLeftComponent(lblNewLabel);
+		
+		JSplitPane splitPane_3 = new JSplitPane();
+		frmPreferences.getContentPane().add(splitPane_3);
+		
+		JLabel lblNewLabel_1 = new JLabel("Prefered gardens");
+		splitPane_3.setLeftComponent(lblNewLabel_1);
+		
+		gardenTextField = new JTextField();
+		splitPane_3.setRightComponent(gardenTextField);
+		gardenTextField.setColumns(10);
+		
+		JSplitPane splitPane_4 = new JSplitPane();
+		frmPreferences.getContentPane().add(splitPane_4);
+		
+		terraceTextField = new JTextField();
+		splitPane_4.setRightComponent(terraceTextField);
+		terraceTextField.setColumns(10);
+		
+		JLabel lblNewLabel_2 = new JLabel("Prefered terraces");
+		splitPane_4.setLeftComponent(lblNewLabel_2);
+		
+		JSplitPane splitPane_5 = new JSplitPane();
+		frmPreferences.getContentPane().add(splitPane_5);
+		
+		JLabel lblNewLabel_3 = new JLabel("Prefered balconies");
+		splitPane_5.setLeftComponent(lblNewLabel_3);
+		
+		balconyTextField = new JTextField();
+		splitPane_5.setRightComponent(balconyTextField);
+		balconyTextField.setColumns(10);
+		
+		JSplitPane splitPane_7 = new JSplitPane();
+		frmPreferences.getContentPane().add(splitPane_7);
+		
+		JLabel lblNewLabel_5 = new JLabel("Prefered pools");
+		splitPane_7.setLeftComponent(lblNewLabel_5);
+		
+		poolTextField = new JTextField();
+		splitPane_7.setRightComponent(poolTextField);
+		poolTextField.setColumns(10);
 
 		
 		frmPreferences.getContentPane().add(btnSubmit);
+	}
+	
+	// Gets a numerical preference from the GUI
+	// Sets it to -1 if it is not set
+	public int readAndSetIntPreference(String textfield)
+	{
+		if(textfield == "" || textfield.isEmpty())
+		{
+			return -1;
+		}
+		else
+		{
+			return Integer.parseInt(textfield);
+		}
 	}
 
 }
