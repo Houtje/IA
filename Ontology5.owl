@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/pallegra/ontologies/2018/4/untitled-ontology-3">
-    <Prefix name="" IRI="http://www.semanticweb.org/pallegra/ontologies/2018/4/untitled-ontology-3#"/>
+    <Prefix name="" IRI="http://www.semanticweb.org/pallegra/ontologies/2018/4/untitled-ontology-3"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -46,7 +46,13 @@
         <ObjectProperty IRI="#hasSpace"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#H_Cantondreef_85"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#isCloseToPT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H_Mgr._van_de_Weteringstraat_128"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasRoom"/>
@@ -61,10 +67,13 @@
         <NamedIndividual IRI="#P_closeToPT"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#amountGarden"/>
+        <Class IRI="#Single"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Single"/>
+        <NamedIndividual IRI="#H_Swammerdamstraat_7"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#amountGarden"/>
     </Declaration>
     <Declaration>
         <Class IRI="#wantsPool"/>
@@ -97,10 +106,13 @@
         <NamedIndividual IRI="#P_Bathroom2"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#amountGarage"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#isLiked"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#amountGarage"/>
+        <NamedIndividual IRI="#H_Detmoldstraat_63"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#H_Prof.Hugo_de_Vrieslaan_40"/>
@@ -118,10 +130,10 @@
         <Class IRI="#Garage"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#amountOutdoor"/>
+        <ObjectProperty IRI="#hasKitchen"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasKitchen"/>
+        <DataProperty IRI="#amountOutdoor"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#H_Park_boswijk_570"/>
@@ -130,10 +142,10 @@
         <DataProperty IRI="#amountBathroom"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#carOwner"/>
+        <NamedIndividual IRI="#P_Bedroom5"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#P_Bedroom5"/>
+        <Class IRI="#carOwner"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasBathroom"/>
@@ -184,16 +196,22 @@
         <DataProperty IRI="#hasCloseNeighbours"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Working"/>
+        <NamedIndividual IRI="#H_Alexander_Numankade_23_A"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#P_Budget200"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Working"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Bathroom"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#P_Bedroom3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H_Nedereindseweg_520"/>
     </Declaration>
     <Declaration>
         <Class IRI="#cornerHouse"/>
@@ -280,13 +298,13 @@
         <Class IRI="#Indoor"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#P_Livingroom1"/>
+        <Class IRI="#Garden"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#H_Europaplei_844"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Garden"/>
+        <NamedIndividual IRI="#P_Livingroom1"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#P_Bedroom1"/>
@@ -301,10 +319,10 @@
         <NamedIndividual IRI="#P_noCloseNeighbours"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#P_Terrace2"/>
+        <DataProperty IRI="#disableAccessibility"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#disableAccessibility"/>
+        <NamedIndividual IRI="#P_Terrace2"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isSuitableFor"/>
@@ -335,6 +353,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Outdoor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H_Papaverstraat_47_4"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#H_Oldambt_63"/>
@@ -587,20 +608,44 @@
         <Class IRI="#rowHouse"/>
     </DisjointClasses>
     <ClassAssertion>
+        <Class IRI="#rowHouse"/>
+        <NamedIndividual IRI="#H_Alexander_Numankade_23_A"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#apartment"/>
         <NamedIndividual IRI="#H_Anthoniedijk_25"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#apartment"/>
+        <NamedIndividual IRI="#H_Cantondreef_85"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#apartment"/>
         <NamedIndividual IRI="#H_Celebesstraat_16"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#rowHouse"/>
+        <NamedIndividual IRI="#H_Detmoldstraat_63"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#studio"/>
         <NamedIndividual IRI="#H_Europaplei_844"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#studio"/>
+        <NamedIndividual IRI="#H_Mgr._van_de_Weteringstraat_128"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#freeHouse"/>
+        <NamedIndividual IRI="#H_Nedereindseweg_520"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#apartment"/>
         <NamedIndividual IRI="#H_Oldambt_63"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#apartment"/>
+        <NamedIndividual IRI="#H_Papaverstraat_47_4"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#apartment"/>
@@ -613,6 +658,10 @@
     <ClassAssertion>
         <Class IRI="#cornerHouse"/>
         <NamedIndividual IRI="#H_Prof.Hugo_de_Vrieslaan_40"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#rowHouse"/>
+        <NamedIndividual IRI="#H_Swammerdamstraat_7"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#rowHouse"/>
@@ -994,6 +1043,61 @@
     </ClassAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#amountBathroom"/>
+        <NamedIndividual IRI="#H_Alexander_Numankade_23_A"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBedroom"/>
+        <NamedIndividual IRI="#H_Alexander_Numankade_23_A"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBudget"/>
+        <NamedIndividual IRI="#H_Alexander_Numankade_23_A"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">249</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountGarden"/>
+        <NamedIndividual IRI="#H_Alexander_Numankade_23_A"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountLivingroom"/>
+        <NamedIndividual IRI="#H_Alexander_Numankade_23_A"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountSqrm"/>
+        <NamedIndividual IRI="#H_Alexander_Numankade_23_A"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountToilet"/>
+        <NamedIndividual IRI="#H_Alexander_Numankade_23_A"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseNeighbours"/>
+        <NamedIndividual IRI="#H_Alexander_Numankade_23_A"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToCityCentre"/>
+        <NamedIndividual IRI="#H_Alexander_Numankade_23_A"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToNature"/>
+        <NamedIndividual IRI="#H_Alexander_Numankade_23_A"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#linkToHouse"/>
+        <NamedIndividual IRI="#H_Alexander_Numankade_23_A"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://www.funda.nl/koop/utrecht/appartement-49209779-alexander-numankade-23-a/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBathroom"/>
         <NamedIndividual IRI="#H_Anthoniedijk_25"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
     </DataPropertyAssertion>
@@ -1056,6 +1160,51 @@
         <DataProperty IRI="#linkToHouse"/>
         <NamedIndividual IRI="#H_Anthoniedijk_25"/>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://www.funda.nl/koop/utrecht/appartement-40697598-anthoniedijk-25/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBathroom"/>
+        <NamedIndividual IRI="#H_Cantondreef_85"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBedroom"/>
+        <NamedIndividual IRI="#H_Cantondreef_85"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBudget"/>
+        <NamedIndividual IRI="#H_Cantondreef_85"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">170</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountSqrm"/>
+        <NamedIndividual IRI="#H_Cantondreef_85"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">65</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountToilet"/>
+        <NamedIndividual IRI="#H_Cantondreef_85"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseNeighbours"/>
+        <NamedIndividual IRI="#H_Cantondreef_85"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToCityCentre"/>
+        <NamedIndividual IRI="#H_Cantondreef_85"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToPT"/>
+        <NamedIndividual IRI="#H_Cantondreef_85"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#linkToHouse"/>
+        <NamedIndividual IRI="#H_Cantondreef_85"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://www.funda.nl/koop/utrecht/appartement-40675411-cantondreef-85/</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#amountBathroom"/>
@@ -1123,6 +1272,71 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://www.funda.nl/koop/utrecht/appartement-40683342-celebesstraat-16/</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#amountBathroom"/>
+        <NamedIndividual IRI="#H_Detmoldstraat_63"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBedroom"/>
+        <NamedIndividual IRI="#H_Detmoldstraat_63"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBudget"/>
+        <NamedIndividual IRI="#H_Detmoldstraat_63"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">400</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountGarden"/>
+        <NamedIndividual IRI="#H_Detmoldstraat_63"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountKitchen"/>
+        <NamedIndividual IRI="#H_Detmoldstraat_63"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountLivingroom"/>
+        <NamedIndividual IRI="#H_Detmoldstraat_63"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountSqrm"/>
+        <NamedIndividual IRI="#H_Detmoldstraat_63"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">99</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountToilet"/>
+        <NamedIndividual IRI="#H_Detmoldstraat_63"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseNeighbours"/>
+        <NamedIndividual IRI="#H_Detmoldstraat_63"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToCityCentre"/>
+        <NamedIndividual IRI="#H_Detmoldstraat_63"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToNature"/>
+        <NamedIndividual IRI="#H_Detmoldstraat_63"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToPT"/>
+        <NamedIndividual IRI="#H_Detmoldstraat_63"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#linkToHouse"/>
+        <NamedIndividual IRI="#H_Detmoldstraat_63"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://www.funda.nl/koop/utrecht/huis-40693335-detmoldstraat-63/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#amountBudget"/>
         <NamedIndividual IRI="#H_Europaplei_844"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">139</Literal>
@@ -1141,6 +1355,141 @@
         <DataProperty IRI="#linkToHouse"/>
         <NamedIndividual IRI="#H_Europaplei_844"/>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://www.funda.nl/koop/utrecht/appartement-40682952-europaplein-844/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBathroom"/>
+        <NamedIndividual IRI="#H_Mgr._van_de_Weteringstraat_128"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBedroom"/>
+        <NamedIndividual IRI="#H_Mgr._van_de_Weteringstraat_128"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBudget"/>
+        <NamedIndividual IRI="#H_Mgr._van_de_Weteringstraat_128"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">88</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountKitchen"/>
+        <NamedIndividual IRI="#H_Mgr._van_de_Weteringstraat_128"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountSqrm"/>
+        <NamedIndividual IRI="#H_Mgr._van_de_Weteringstraat_128"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountToilet"/>
+        <NamedIndividual IRI="#H_Mgr._van_de_Weteringstraat_128"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseNeighbours"/>
+        <NamedIndividual IRI="#H_Mgr._van_de_Weteringstraat_128"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToCityCentre"/>
+        <NamedIndividual IRI="#H_Mgr._van_de_Weteringstraat_128"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToPT"/>
+        <NamedIndividual IRI="#H_Mgr._van_de_Weteringstraat_128"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#linkToHouse"/>
+        <NamedIndividual IRI="#H_Mgr._van_de_Weteringstraat_128"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://www.funda.nl/koop/utrecht/appartement-40434079-mgr-van-de-weteringstraat-128/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBathroom"/>
+        <NamedIndividual IRI="#H_Nedereindseweg_520"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBedroom"/>
+        <NamedIndividual IRI="#H_Nedereindseweg_520"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBudget"/>
+        <NamedIndividual IRI="#H_Nedereindseweg_520"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1650</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountGarage"/>
+        <NamedIndividual IRI="#H_Nedereindseweg_520"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountGarden"/>
+        <NamedIndividual IRI="#H_Nedereindseweg_520"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountKitchen"/>
+        <NamedIndividual IRI="#H_Nedereindseweg_520"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountLivingroom"/>
+        <NamedIndividual IRI="#H_Nedereindseweg_520"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountPool"/>
+        <NamedIndividual IRI="#H_Nedereindseweg_520"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountSqrm"/>
+        <NamedIndividual IRI="#H_Nedereindseweg_520"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">779</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountTerrace"/>
+        <NamedIndividual IRI="#H_Nedereindseweg_520"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountToilet"/>
+        <NamedIndividual IRI="#H_Nedereindseweg_520"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disableAccessibility"/>
+        <NamedIndividual IRI="#H_Nedereindseweg_520"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseNeighbours"/>
+        <NamedIndividual IRI="#H_Nedereindseweg_520"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToCityCentre"/>
+        <NamedIndividual IRI="#H_Nedereindseweg_520"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToNature"/>
+        <NamedIndividual IRI="#H_Nedereindseweg_520"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToPT"/>
+        <NamedIndividual IRI="#H_Nedereindseweg_520"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#linkToHouse"/>
+        <NamedIndividual IRI="#H_Nedereindseweg_520"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://www.funda.nl/koop/utrecht/huis-40692585-nedereindseweg-520/</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#amountBathroom"/>
@@ -1266,6 +1615,66 @@
         <DataProperty IRI="#linkToHouse"/>
         <NamedIndividual IRI="#H_Oudegracht_256_B"/>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://www.funda.nl/koop/utrecht/appartement-40683643-oudegracht-256-b/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBathroom"/>
+        <NamedIndividual IRI="#H_Papaverstraat_47_4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBedroom"/>
+        <NamedIndividual IRI="#H_Papaverstraat_47_4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBudget"/>
+        <NamedIndividual IRI="#H_Papaverstraat_47_4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">68</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountKitchen"/>
+        <NamedIndividual IRI="#H_Papaverstraat_47_4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountSqrm"/>
+        <NamedIndividual IRI="#H_Papaverstraat_47_4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountToilet"/>
+        <NamedIndividual IRI="#H_Papaverstraat_47_4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disableAccessibility"/>
+        <NamedIndividual IRI="#H_Papaverstraat_47_4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseNeighbours"/>
+        <NamedIndividual IRI="#H_Papaverstraat_47_4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToCityCentre"/>
+        <NamedIndividual IRI="#H_Papaverstraat_47_4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToNature"/>
+        <NamedIndividual IRI="#H_Papaverstraat_47_4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToPT"/>
+        <NamedIndividual IRI="#H_Papaverstraat_47_4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#linkToHouse"/>
+        <NamedIndividual IRI="#H_Papaverstraat_47_4"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://www.funda.nl/koop/utrecht/appartement-47269813-papaverstraat-47-4/</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#amountBathroom"/>
@@ -1456,6 +1865,71 @@
         <DataProperty IRI="#linkToHouse"/>
         <NamedIndividual IRI="#H_Prof.Hugo_de_Vrieslaan_40"/>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://www.funda.nl/koop/utrecht/huis-40669310-prof-hugo-de-vrieslaan-40/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBathroom"/>
+        <NamedIndividual IRI="#H_Swammerdamstraat_7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBedroom"/>
+        <NamedIndividual IRI="#H_Swammerdamstraat_7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBudget"/>
+        <NamedIndividual IRI="#H_Swammerdamstraat_7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">170</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountGarden"/>
+        <NamedIndividual IRI="#H_Swammerdamstraat_7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountKitchen"/>
+        <NamedIndividual IRI="#H_Swammerdamstraat_7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountLivingroom"/>
+        <NamedIndividual IRI="#H_Swammerdamstraat_7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountSqrm"/>
+        <NamedIndividual IRI="#H_Swammerdamstraat_7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">48</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountToilet"/>
+        <NamedIndividual IRI="#H_Swammerdamstraat_7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseNeighbours"/>
+        <NamedIndividual IRI="#H_Swammerdamstraat_7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToCityCentre"/>
+        <NamedIndividual IRI="#H_Swammerdamstraat_7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToNature"/>
+        <NamedIndividual IRI="#H_Swammerdamstraat_7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToPT"/>
+        <NamedIndividual IRI="#H_Swammerdamstraat_7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#linkToHouse"/>
+        <NamedIndividual IRI="#H_Swammerdamstraat_7"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://www.funda.nl/koop/utrecht/appartement-40654207-swammerdamstraat-7/</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#amountBathroom"/>
