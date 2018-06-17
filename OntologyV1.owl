@@ -1,0 +1,1903 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/pallegra/ontologies/2018/4/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/pallegra/ontologies/2018/4/untitled-ontology-3">
+    <Prefix name="" IRI="http://www.semanticweb.org/pallegra/ontologies/2018/4/untitled-ontology-3#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <NamedIndividual IRI="#P_Budget50"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Balcony"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Room"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H_Vancouverdreef_55"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pool"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_Balcony1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H_Anthoniedijk_25"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#amountBudget"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#amountToilet"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSpace"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isCloseToPT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bedroom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRoom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Living_Room"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_closeToPT"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#amountGarden"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Single"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wantsPool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Extra"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_Balcony2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#likesLuxury"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_disableAccessible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Preferences"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#House"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_Balcony3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_parking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_Bathroom2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLiked"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#amountGarage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H_Prof.Hugo_de_Vrieslaan_40"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_Balcony4"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLivingroom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#petOwner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Garage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#amountOutdoor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasKitchen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H_Park_boswijk_570"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#amountBathroom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#carOwner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_Bedroom5"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBathroom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_Bathroom1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Retired"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOutdoor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#amountBalcony"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Couple"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_Budget500"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Basement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_closeToCityCentre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_closeToNature"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H_Celebesstraat_16"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDoublesink"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#amountSpace"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_Bedroom4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_Bathroom4"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCloseNeighbours"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_Budget200"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Working"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bathroom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_Bedroom3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cornerHouse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_Pool"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H_Paul_Citroenstraat_43"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFacility"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#amountKitchen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#parkingLot"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#amountBedroom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#energySaver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rowHouse"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBedroom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#silenceLover"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRoom"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#amountSqrm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Terrace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#userComposition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isCloseToCityCentre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_Bathroom3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_Budget1000+"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_Bedroom2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Family"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_Terrace1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_Garden"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#linkToHouse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#userOccupation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#studio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H_Oudegracht_256_B"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indoor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_Livingroom1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H_Europaplei_844"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Garden"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_Bedroom1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#freeHouse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#userFeatures"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_noCloseNeighbours"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_Terrace2"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#disableAccessibility"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSuitableFor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#apartment"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isCloseToNature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Space"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#solarPanel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#amountLivingroom"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#amountPool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kitchen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_Garage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Outdoor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H_Oldambt_63"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_Budget100"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#amountParking"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#amountExtra"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#amountTerrace"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_solarPanel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Student"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_Kitchen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_Livingroom2"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#apartment"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#apartment"/>
+            <DataHasValue>
+                <DataProperty IRI="#hasCloseNeighbours"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#freeHouse"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#freeHouse"/>
+            <DataHasValue>
+                <DataProperty IRI="#amountGarden"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#freeHouse"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#freeHouse"/>
+            <DataHasValue>
+                <DataProperty IRI="#hasCloseNeighbours"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#studio"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#apartment"/>
+            <DataHasValue>
+                <DataProperty IRI="#amountBathroom"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#amountBedroom"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#amountKitchen"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#amountLivingroom"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Balcony"/>
+        <Class IRI="#Outdoor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basement"/>
+        <Class IRI="#Room"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bathroom"/>
+        <Class IRI="#Room"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bedroom"/>
+        <Class IRI="#Room"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Couple"/>
+        <Class IRI="#userComposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disable"/>
+        <Class IRI="#userFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Extra"/>
+        <Class IRI="#Space"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Family"/>
+        <Class IRI="#userComposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Garage"/>
+        <Class IRI="#Outdoor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Garden"/>
+        <Class IRI="#Outdoor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indoor"/>
+        <Class IRI="#Space"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kitchen"/>
+        <Class IRI="#Room"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Living_Room"/>
+        <Class IRI="#Room"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Outdoor"/>
+        <Class IRI="#Space"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pool"/>
+        <Class IRI="#Extra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Retired"/>
+        <Class IRI="#userOccupation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Room"/>
+        <Class IRI="#Indoor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Single"/>
+        <Class IRI="#userComposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Student"/>
+        <Class IRI="#userOccupation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Terrace"/>
+        <Class IRI="#Outdoor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Working"/>
+        <Class IRI="#userOccupation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#apartment"/>
+        <Class IRI="#House"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#carOwner"/>
+        <Class IRI="#userFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cornerHouse"/>
+        <Class IRI="#House"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#energySaver"/>
+        <Class IRI="#userFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#freeHouse"/>
+        <Class IRI="#House"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#likesLuxury"/>
+        <Class IRI="#userFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#parkingLot"/>
+        <Class IRI="#Extra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#petOwner"/>
+        <Class IRI="#userFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rowHouse"/>
+        <Class IRI="#House"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#silenceLover"/>
+        <Class IRI="#userFeatures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#solarPanel"/>
+        <Class IRI="#Extra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#studio"/>
+        <Class IRI="#apartment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#userComposition"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#userFeatures"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#userOccupation"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wantsPool"/>
+        <Class IRI="#userFeatures"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Basement"/>
+        <Class IRI="#Bathroom"/>
+        <Class IRI="#Bedroom"/>
+        <Class IRI="#Kitchen"/>
+        <Class IRI="#Living_Room"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Couple"/>
+        <Class IRI="#Family"/>
+        <Class IRI="#Single"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Retired"/>
+        <Class IRI="#Student"/>
+        <Class IRI="#Working"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#apartment"/>
+        <Class IRI="#cornerHouse"/>
+        <Class IRI="#freeHouse"/>
+        <Class IRI="#rowHouse"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#apartment"/>
+        <NamedIndividual IRI="#H_Anthoniedijk_25"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#apartment"/>
+        <NamedIndividual IRI="#H_Celebesstraat_16"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#studio"/>
+        <NamedIndividual IRI="#H_Europaplei_844"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#apartment"/>
+        <NamedIndividual IRI="#H_Oldambt_63"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#apartment"/>
+        <NamedIndividual IRI="#H_Park_boswijk_570"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#rowHouse"/>
+        <NamedIndividual IRI="#H_Paul_Citroenstraat_43"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cornerHouse"/>
+        <NamedIndividual IRI="#H_Prof.Hugo_de_Vrieslaan_40"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#rowHouse"/>
+        <NamedIndividual IRI="#H_Vancouverdreef_55"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Preferences"/>
+        <NamedIndividual IRI="#P_Balcony1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Preferences"/>
+        <NamedIndividual IRI="#P_Balcony2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Preferences"/>
+        <NamedIndividual IRI="#P_Balcony3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Preferences"/>
+        <NamedIndividual IRI="#P_Balcony4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Preferences"/>
+        <NamedIndividual IRI="#P_Bathroom1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Preferences"/>
+        <NamedIndividual IRI="#P_Bathroom2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Preferences"/>
+        <NamedIndividual IRI="#P_Bathroom3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Preferences"/>
+        <NamedIndividual IRI="#P_Bathroom4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Student"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Bedroom1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Couple"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Bedroom2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Family"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Bedroom2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Retired"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Bedroom2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Working"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Bedroom2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Family"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Bedroom3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Family"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Bedroom4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Family"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Bedroom5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Couple"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Budget100"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Family"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Budget100"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Retired"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Budget100"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Single"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Budget100"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Working"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Budget100"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Couple"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Budget200"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Family"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Budget200"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Retired"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Budget200"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Working"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Budget200"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Couple"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Budget50"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Family"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Budget50"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Retired"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Budget50"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Single"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Budget50"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Student"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Budget50"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Working"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Budget50"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Couple"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Budget500"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Family"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Budget500"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Working"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Budget500"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#carOwner"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Garage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#petOwner"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Garage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#petOwner"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Garden"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Preferences"/>
+        <NamedIndividual IRI="#P_Kitchen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Family"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Livingroom1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Retired"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Livingroom1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#likesLuxury"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Livingroom2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#likesLuxury"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Pool"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#wantsPool"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Pool"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#petOwner"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Terrace1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isSuitableFor"/>
+                <Class IRI="#silenceLover"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="#P_closeToCityCentre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Family"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_closeToNature"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Retired"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_closeToNature"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#petOwner"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_closeToNature"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#silenceLover"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_closeToNature"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Student"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_closeToPT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Working"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_closeToPT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#Disable"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_disableAccessible"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#silenceLover"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_noCloseNeighbours"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#carOwner"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_parking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#energySaver"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_solarPanel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSuitableFor"/>
+            <Class IRI="#likesLuxury"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#P_Budget1000+"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBathroom"/>
+        <NamedIndividual IRI="#H_Anthoniedijk_25"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBedroom"/>
+        <NamedIndividual IRI="#H_Anthoniedijk_25"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBudget"/>
+        <NamedIndividual IRI="#H_Anthoniedijk_25"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">219</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountGarden"/>
+        <NamedIndividual IRI="#H_Anthoniedijk_25"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountKitchen"/>
+        <NamedIndividual IRI="#H_Anthoniedijk_25"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountLivingroom"/>
+        <NamedIndividual IRI="#H_Anthoniedijk_25"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountSqrm"/>
+        <NamedIndividual IRI="#H_Anthoniedijk_25"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">44</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disableAccessibility"/>
+        <NamedIndividual IRI="#H_Anthoniedijk_25"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseNeighbours"/>
+        <NamedIndividual IRI="#H_Anthoniedijk_25"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToCityCentre"/>
+        <NamedIndividual IRI="#H_Anthoniedijk_25"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToNature"/>
+        <NamedIndividual IRI="#H_Anthoniedijk_25"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToPT"/>
+        <NamedIndividual IRI="#H_Anthoniedijk_25"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#linkToHouse"/>
+        <NamedIndividual IRI="#H_Anthoniedijk_25"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://www.funda.nl/koop/utrecht/appartement-40697598-anthoniedijk-25/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBathroom"/>
+        <NamedIndividual IRI="#H_Celebesstraat_16"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBedroom"/>
+        <NamedIndividual IRI="#H_Celebesstraat_16"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBudget"/>
+        <NamedIndividual IRI="#H_Celebesstraat_16"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountKitchen"/>
+        <NamedIndividual IRI="#H_Celebesstraat_16"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountLivingroom"/>
+        <NamedIndividual IRI="#H_Celebesstraat_16"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountSqrm"/>
+        <NamedIndividual IRI="#H_Celebesstraat_16"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">67</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountTerrace"/>
+        <NamedIndividual IRI="#H_Celebesstraat_16"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disableAccessibility"/>
+        <NamedIndividual IRI="#H_Celebesstraat_16"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseNeighbours"/>
+        <NamedIndividual IRI="#H_Celebesstraat_16"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToCityCentre"/>
+        <NamedIndividual IRI="#H_Celebesstraat_16"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToNature"/>
+        <NamedIndividual IRI="#H_Celebesstraat_16"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToPT"/>
+        <NamedIndividual IRI="#H_Celebesstraat_16"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#linkToHouse"/>
+        <NamedIndividual IRI="#H_Celebesstraat_16"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://www.funda.nl/koop/utrecht/appartement-40683342-celebesstraat-16/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBudget"/>
+        <NamedIndividual IRI="#H_Europaplei_844"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">139</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountParking"/>
+        <NamedIndividual IRI="#H_Europaplei_844"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountSqrm"/>
+        <NamedIndividual IRI="#H_Europaplei_844"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToNature"/>
+        <NamedIndividual IRI="#H_Europaplei_844"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#linkToHouse"/>
+        <NamedIndividual IRI="#H_Europaplei_844"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://www.funda.nl/koop/utrecht/appartement-40682952-europaplein-844/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBathroom"/>
+        <NamedIndividual IRI="#H_Oldambt_63"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBedroom"/>
+        <NamedIndividual IRI="#H_Oldambt_63"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBudget"/>
+        <NamedIndividual IRI="#H_Oldambt_63"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">250</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountKitchen"/>
+        <NamedIndividual IRI="#H_Oldambt_63"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountLivingroom"/>
+        <NamedIndividual IRI="#H_Oldambt_63"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountParking"/>
+        <NamedIndividual IRI="#H_Oldambt_63"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountSqrm"/>
+        <NamedIndividual IRI="#H_Oldambt_63"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">105</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountTerrace"/>
+        <NamedIndividual IRI="#H_Oldambt_63"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountToilet"/>
+        <NamedIndividual IRI="#H_Oldambt_63"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disableAccessibility"/>
+        <NamedIndividual IRI="#H_Oldambt_63"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseNeighbours"/>
+        <NamedIndividual IRI="#H_Oldambt_63"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToCityCentre"/>
+        <NamedIndividual IRI="#H_Oldambt_63"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToNature"/>
+        <NamedIndividual IRI="#H_Oldambt_63"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToPT"/>
+        <NamedIndividual IRI="#H_Oldambt_63"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#linkToHouse"/>
+        <NamedIndividual IRI="#H_Oldambt_63"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://www.funda.nl/koop/utrecht/appartement-86050397-oldambt-63/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBalcony"/>
+        <NamedIndividual IRI="#H_Oudegracht_256_B"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBathroom"/>
+        <NamedIndividual IRI="#H_Oudegracht_256_B"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBedroom"/>
+        <NamedIndividual IRI="#H_Oudegracht_256_B"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBudget"/>
+        <NamedIndividual IRI="#H_Oudegracht_256_B"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">485</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountKitchen"/>
+        <NamedIndividual IRI="#H_Oudegracht_256_B"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountSqrm"/>
+        <NamedIndividual IRI="#H_Oudegracht_256_B"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">105</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountTerrace"/>
+        <NamedIndividual IRI="#H_Oudegracht_256_B"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseNeighbours"/>
+        <NamedIndividual IRI="#H_Oudegracht_256_B"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToNature"/>
+        <NamedIndividual IRI="#H_Oudegracht_256_B"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToPT"/>
+        <NamedIndividual IRI="#H_Oudegracht_256_B"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#linkToHouse"/>
+        <NamedIndividual IRI="#H_Oudegracht_256_B"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://www.funda.nl/koop/utrecht/appartement-40683643-oudegracht-256-b/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBathroom"/>
+        <NamedIndividual IRI="#H_Park_boswijk_570"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBedroom"/>
+        <NamedIndividual IRI="#H_Park_boswijk_570"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBudget"/>
+        <NamedIndividual IRI="#H_Park_boswijk_570"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountKitchen"/>
+        <NamedIndividual IRI="#H_Park_boswijk_570"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountLivingroom"/>
+        <NamedIndividual IRI="#H_Park_boswijk_570"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountParking"/>
+        <NamedIndividual IRI="#H_Park_boswijk_570"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountSqrm"/>
+        <NamedIndividual IRI="#H_Park_boswijk_570"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">55</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountTerrace"/>
+        <NamedIndividual IRI="#H_Park_boswijk_570"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disableAccessibility"/>
+        <NamedIndividual IRI="#H_Park_boswijk_570"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseNeighbours"/>
+        <NamedIndividual IRI="#H_Park_boswijk_570"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToCityCentre"/>
+        <NamedIndividual IRI="#H_Park_boswijk_570"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToNature"/>
+        <NamedIndividual IRI="#H_Park_boswijk_570"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#linkToHouse"/>
+        <NamedIndividual IRI="#H_Park_boswijk_570"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://www.funda.nl/koop/doorn/appartement-86901577-park-boswijk-570/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBathroom"/>
+        <NamedIndividual IRI="#H_Paul_Citroenstraat_43"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBedroom"/>
+        <NamedIndividual IRI="#H_Paul_Citroenstraat_43"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBudget"/>
+        <NamedIndividual IRI="#H_Paul_Citroenstraat_43"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">350</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountGarden"/>
+        <NamedIndividual IRI="#H_Paul_Citroenstraat_43"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountParking"/>
+        <NamedIndividual IRI="#H_Paul_Citroenstraat_43"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountSqrm"/>
+        <NamedIndividual IRI="#H_Paul_Citroenstraat_43"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">123</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseNeighbours"/>
+        <NamedIndividual IRI="#H_Paul_Citroenstraat_43"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToNature"/>
+        <NamedIndividual IRI="#H_Paul_Citroenstraat_43"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToPT"/>
+        <NamedIndividual IRI="#H_Paul_Citroenstraat_43"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#linkToHouse"/>
+        <NamedIndividual IRI="#H_Paul_Citroenstraat_43"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://www.funda.nl/koop/utrecht/huis-40676719-paul-citroenstraat-43/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBalcony"/>
+        <NamedIndividual IRI="#H_Prof.Hugo_de_Vrieslaan_40"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBathroom"/>
+        <NamedIndividual IRI="#H_Prof.Hugo_de_Vrieslaan_40"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBedroom"/>
+        <NamedIndividual IRI="#H_Prof.Hugo_de_Vrieslaan_40"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBudget"/>
+        <NamedIndividual IRI="#H_Prof.Hugo_de_Vrieslaan_40"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">950</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountGarage"/>
+        <NamedIndividual IRI="#H_Prof.Hugo_de_Vrieslaan_40"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountGarden"/>
+        <NamedIndividual IRI="#H_Prof.Hugo_de_Vrieslaan_40"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountKitchen"/>
+        <NamedIndividual IRI="#H_Prof.Hugo_de_Vrieslaan_40"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountLivingroom"/>
+        <NamedIndividual IRI="#H_Prof.Hugo_de_Vrieslaan_40"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountParking"/>
+        <NamedIndividual IRI="#H_Prof.Hugo_de_Vrieslaan_40"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountSqrm"/>
+        <NamedIndividual IRI="#H_Prof.Hugo_de_Vrieslaan_40"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">130</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountToilet"/>
+        <NamedIndividual IRI="#H_Prof.Hugo_de_Vrieslaan_40"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseNeighbours"/>
+        <NamedIndividual IRI="#H_Prof.Hugo_de_Vrieslaan_40"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToCityCentre"/>
+        <NamedIndividual IRI="#H_Prof.Hugo_de_Vrieslaan_40"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToNature"/>
+        <NamedIndividual IRI="#H_Prof.Hugo_de_Vrieslaan_40"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToPT"/>
+        <NamedIndividual IRI="#H_Prof.Hugo_de_Vrieslaan_40"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#linkToHouse"/>
+        <NamedIndividual IRI="#H_Prof.Hugo_de_Vrieslaan_40"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://www.funda.nl/koop/utrecht/huis-40669310-prof-hugo-de-vrieslaan-40/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBathroom"/>
+        <NamedIndividual IRI="#H_Vancouverdreef_55"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBedroom"/>
+        <NamedIndividual IRI="#H_Vancouverdreef_55"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBudget"/>
+        <NamedIndividual IRI="#H_Vancouverdreef_55"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">315</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountGarden"/>
+        <NamedIndividual IRI="#H_Vancouverdreef_55"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountKitchen"/>
+        <NamedIndividual IRI="#H_Vancouverdreef_55"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountLivingroom"/>
+        <NamedIndividual IRI="#H_Vancouverdreef_55"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountParking"/>
+        <NamedIndividual IRI="#H_Vancouverdreef_55"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountSqrm"/>
+        <NamedIndividual IRI="#H_Vancouverdreef_55"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">131</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountToilet"/>
+        <NamedIndividual IRI="#H_Vancouverdreef_55"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disableAccessibility"/>
+        <NamedIndividual IRI="#H_Vancouverdreef_55"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseNeighbours"/>
+        <NamedIndividual IRI="#H_Vancouverdreef_55"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToCityCentre"/>
+        <NamedIndividual IRI="#H_Vancouverdreef_55"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToNature"/>
+        <NamedIndividual IRI="#H_Vancouverdreef_55"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCloseToPT"/>
+        <NamedIndividual IRI="#H_Vancouverdreef_55"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#linkToHouse"/>
+        <NamedIndividual IRI="#H_Vancouverdreef_55"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://www.funda.nl/koop/utrecht/huis-40696385-vancouverdreef-55/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountOutdoor"/>
+        <NamedIndividual IRI="#P_Balcony1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountOutdoor"/>
+        <NamedIndividual IRI="#P_Balcony2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountOutdoor"/>
+        <NamedIndividual IRI="#P_Balcony3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountOutdoor"/>
+        <NamedIndividual IRI="#P_Balcony4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBedroom"/>
+        <NamedIndividual IRI="#P_Bathroom1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBedroom"/>
+        <NamedIndividual IRI="#P_Bathroom1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBedroom"/>
+        <NamedIndividual IRI="#P_Bathroom2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBedroom"/>
+        <NamedIndividual IRI="#P_Bathroom3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBedroom"/>
+        <NamedIndividual IRI="#P_Bathroom4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBathroom"/>
+        <NamedIndividual IRI="#P_Bedroom1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBathroom"/>
+        <NamedIndividual IRI="#P_Bedroom2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBathroom"/>
+        <NamedIndividual IRI="#P_Bedroom3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBathroom"/>
+        <NamedIndividual IRI="#P_Bedroom4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountBathroom"/>
+        <NamedIndividual IRI="#P_Bedroom5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountOutdoor"/>
+        <NamedIndividual IRI="#P_Garden"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountPool"/>
+        <NamedIndividual IRI="#P_Garden"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountSpace"/>
+        <NamedIndividual IRI="#P_Kitchen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountOutdoor"/>
+        <NamedIndividual IRI="#P_Terrace1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amountOutdoor"/>
+        <NamedIndividual IRI="#P_Terrace2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasBathroom"/>
+        <ObjectProperty IRI="#hasRoom"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasBedroom"/>
+        <ObjectProperty IRI="#hasRoom"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDoublesink"/>
+        <ObjectProperty IRI="#hasFacility"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasFacility"/>
+        <ObjectProperty IRI="#isRoom"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasKitchen"/>
+        <ObjectProperty IRI="#hasRoom"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasLivingroom"/>
+        <ObjectProperty IRI="#hasRoom"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasOutdoor"/>
+        <ObjectProperty IRI="#hasSpace"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasRoom"/>
+        <ObjectProperty IRI="#hasSpace"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasRoom"/>
+        <ObjectProperty IRI="#isRoom"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBathroom"/>
+        <Class IRI="#House"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBedroom"/>
+        <Class IRI="#House"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDoublesink"/>
+        <Class IRI="#Bathroom"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFacility"/>
+        <Class IRI="#Room"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasKitchen"/>
+        <Class IRI="#House"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLivingroom"/>
+        <Class IRI="#House"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOutdoor"/>
+        <Class IRI="#House"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLiked"/>
+        <Class IRI="#Space"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRoom"/>
+        <Class IRI="#Room"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSuitableFor"/>
+        <Class IRI="#Preferences"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBathroom"/>
+        <Class IRI="#Bathroom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBedroom"/>
+        <Class IRI="#Bedroom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasKitchen"/>
+        <Class IRI="#Kitchen"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLivingroom"/>
+        <Class IRI="#Living_Room"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasOutdoor"/>
+        <Class IRI="#Outdoor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRoom"/>
+        <Class IRI="#Room"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSpace"/>
+        <Class IRI="#Space"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isLiked"/>
+        <Class IRI="#Preferences"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isLiked"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSuitableFor"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#amountBalcony"/>
+        <DataProperty IRI="#amountOutdoor"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#amountBathroom"/>
+        <DataProperty IRI="#amountSpace"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#amountBedroom"/>
+        <DataProperty IRI="#amountSpace"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#amountExtra"/>
+        <DataProperty IRI="#amountSpace"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#amountGarage"/>
+        <DataProperty IRI="#amountOutdoor"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#amountGarden"/>
+        <DataProperty IRI="#amountOutdoor"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#amountKitchen"/>
+        <DataProperty IRI="#amountSpace"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#amountLivingroom"/>
+        <DataProperty IRI="#amountSpace"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#amountOutdoor"/>
+        <DataProperty IRI="#amountSpace"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#amountParking"/>
+        <DataProperty IRI="#amountExtra"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#amountTerrace"/>
+        <DataProperty IRI="#amountOutdoor"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#amountToilet"/>
+        <DataProperty IRI="#amountSpace"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#disableAccessibility"/>
+        <Class IRI="#House"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isCloseToCityCentre"/>
+        <Class IRI="#House"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isCloseToNature"/>
+        <Class IRI="#House"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isCloseToPT"/>
+        <Class IRI="#House"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#amountBalcony"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#amountBathroom"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#amountBedroom"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#amountBudget"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#amountGarage"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#amountGarden"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#amountKitchen"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#amountLivingroom"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#amountOutdoor"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#amountParking"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#amountPool"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#amountSqrm"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#amountTerrace"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#amountToilet"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#disableAccessibility"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCloseNeighbours"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isCloseToCityCentre"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isCloseToNature"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isCloseToPT"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#linkToHouse"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
