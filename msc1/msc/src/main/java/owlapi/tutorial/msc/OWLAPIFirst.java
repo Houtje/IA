@@ -56,7 +56,7 @@ public class OWLAPIFirst {
 	OWLOntology o2;
 	Reasoner hReasoner;
 	
-	File file2 = new File("/Users/pallegra/Desktop/Intelligent agents/OntologyV1.owl");
+	File file2 = new File("C://Master/IA/OntologyV1.owl");
 	ReasonerFactory f2 = new ReasonerFactory();
 
 	// First, we create an OWLOntologyManager object. The manager will load and

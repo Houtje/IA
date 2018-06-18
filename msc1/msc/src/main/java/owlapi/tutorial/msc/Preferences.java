@@ -21,6 +21,7 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
 import org.semanticweb.owlapi.model.OWLOntologyCreationException;
+import javax.swing.JCheckBox;
 
 public class Preferences {
 
@@ -66,6 +67,13 @@ public class Preferences {
 
 
 	static OWLAPIFirst reasoner = new OWLAPIFirst();
+	private JTextField parkingTextField;
+	private JTextField solarTextField;
+	JCheckBox disabledCheckbox;
+	JCheckBox centerCheckbox;
+	JCheckBox ptCheckbox;
+	JCheckBox natureCheckbox;
+	JCheckBox neighboursCheckbox;
 
 	public static void main(String[] args) throws OWLOntologyCreationException {
 		EventQueue.invokeLater(new Runnable() {
@@ -98,8 +106,8 @@ public class Preferences {
 		JPanel rightSide = new JPanel();
 		JPanel comboboxesPanel = new JPanel();
 		comboboxesPanel.setLayout(new GridLayout(1,3));
-		String[] occupationStrings = { "student", "worker","retired" };
-		String[] compositionStrings = { "couple", "family","single" };
+		String[] occupationStrings = { "Student", "Working","Retired" };
+		String[] compositionStrings = { "Couple", "Family","Single" };
 		//String[] featuresStrings = { "student", "worker","nullafacente" };
 
 
@@ -115,15 +123,15 @@ public class Preferences {
 		comboboxesPanel.add(compositionList);
 		//comboboxesPanel.add(featuresList); no combobox for this because we may want more than one
 		
-		GridLayout grid2 = new GridLayout(14,1);
+		GridLayout grid2 = new GridLayout(21,1);
 		leftSide.setLayout(grid2);
 		frmPreferences = new JFrame();
 		frmPreferences.setTitle("Agent 007");
-		frmPreferences.setSize(new Dimension(700,530));
+		frmPreferences.setSize(new Dimension(1002, 604));
 		frmPreferences.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frmPreferences.setLayout(grid1);
-		frmPreferences.add(leftSide);
-		frmPreferences.add(rightSide);
+		frmPreferences.getContentPane().setLayout(grid1);
+		frmPreferences.getContentPane().add(leftSide);
+		frmPreferences.getContentPane().add(rightSide);
         rightSide.setSize(new Dimension(349,520));
         
 		leftSide.add(comboboxesPanel);
@@ -175,7 +183,7 @@ public class Preferences {
 		JScrollPane scrollpane = new JScrollPane(display);
 		scrollpane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
 		scrollpane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
-		scrollpane.setPreferredSize(new Dimension(349,450));
+		scrollpane.setPreferredSize(new Dimension(400,500));
 		rightSide.add(scrollpane);
 
 		
@@ -188,7 +196,10 @@ public class Preferences {
 		
 		ActionListener listener1 = new ActionListener(){
 			public void actionPerformed(ActionEvent arg0) {
-
+                // Clear the previous hashmap
+				housePrefMap.clear();
+				infPrefMap.clear();
+				
 				// Get all the available preferences integer
 				// Size
 				size1 = readAndSetIntPreference(sizeTextField.getText());
@@ -227,18 +238,47 @@ public class Preferences {
 				pools =readAndSetIntPreference(poolTextField.getText());
 				housePrefMap.put("amountPool", pools);
 				
-				housePrefMap.put("disableAccessibility", -1);
-				housePrefMap.put("isCloseToCityCentre", -1);
-				housePrefMap.put("isCloseToPT", -1);
-				housePrefMap.put("isCloseToNature", -1);
+				// Disability access
+				int disability = disabledCheckbox.isSelected() ? 1 : -1;
+				housePrefMap.put("disableAccessibility", disability);
+				// City center
+				int cityCenter = centerCheckbox.isSelected() ? 1 : -1;
+				housePrefMap.put("isCloseToCityCentre", cityCenter);
+				// Close to PT
+				int pt = ptCheckbox.isSelected() ? 1 : -1;
+				housePrefMap.put("isCloseToPT", pt);
+				// Nature
+				int nature = natureCheckbox.isSelected() ? 1 : -1;
+				housePrefMap.put("isCloseToNature", nature);
+				// Neighbours
+				int neighbours = neighboursCheckbox.isSelected() ? 1 : -1;
 				housePrefMap.put("hasCloseNeighbours", -1);
-				housePrefMap.put("amountParking", -1);
-				housePrefMap.put("amountSolarPanel", -1);
+				
+				// Parkings
+				int parkings = readAndSetIntPreference(parkingTextField.getText());
+				housePrefMap.put("amountParking", parkings);
+				
+				// Solar panels
+				int solar = readAndSetIntPreference(solarTextField.getText());
+				housePrefMap.put("amountSolarPanel", solar);
 
-
-
-
-				infPrefMap.put("Student", 1);
+				//Composition
+				infPrefMap.put("Single", 0);
+				infPrefMap.put("Couple", 0);
+				infPrefMap.put("Family", 0);
+				String composition = (String) compositionList.getSelectedItem();
+				infPrefMap.put(composition, 1);
+			
+				
+				//Occupation
+				infPrefMap.put("Student", 0);
+				infPrefMap.put("Working", 0);
+				infPrefMap.put("Retired", 0);
+				String occupation = (String) occupationList.getSelectedItem();
+				infPrefMap.put(occupation, 1);	
+				
+				
+				//infPrefMap.put("Student", 0);
 				infPrefMap.put("petOwner", 1);
 
 //==============================================================================
@@ -285,7 +325,6 @@ public class Preferences {
 		};
 		
 		btnSubmit.addActionListener(listener1);
-		occupationList.addActionListener(listener1);
 
 		JSplitPane bathroomPane = new JSplitPane();
 		leftSide.add(bathroomPane);
@@ -376,6 +415,41 @@ public class Preferences {
 		poolTextField = new JTextField();
 		splitPane_7.setRightComponent(poolTextField);
 		poolTextField.setColumns(10);
+		
+		JSplitPane splitPane_9 = new JSplitPane();
+		leftSide.add(splitPane_9);
+		
+		JLabel lblNewLabel_7 = new JLabel("Number of parking spaces");
+		splitPane_9.setLeftComponent(lblNewLabel_7);
+		
+		parkingTextField = new JTextField();
+		splitPane_9.setRightComponent(parkingTextField);
+		parkingTextField.setColumns(10);
+		
+		JSplitPane splitPane_10 = new JSplitPane();
+		leftSide.add(splitPane_10);
+		
+		JLabel lblNewLabel_8 = new JLabel("Number of solar panels");
+		splitPane_10.setLeftComponent(lblNewLabel_8);
+		
+		solarTextField = new JTextField();
+		splitPane_10.setRightComponent(solarTextField);
+		solarTextField.setColumns(10);
+		
+		disabledCheckbox = new JCheckBox("Disability access");
+		leftSide.add(disabledCheckbox);
+		
+		centerCheckbox = new JCheckBox("Close to city center");
+		leftSide.add(centerCheckbox);
+		
+		ptCheckbox = new JCheckBox("Close to PT");
+		leftSide.add(ptCheckbox);
+		
+		neighboursCheckbox = new JCheckBox("Close to neighbours");
+		leftSide.add(neighboursCheckbox);
+		
+		natureCheckbox = new JCheckBox("Close to nature");
+		leftSide.add(natureCheckbox);
 
 
 		leftSide.add(btnSubmit);
