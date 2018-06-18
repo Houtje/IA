@@ -69,11 +69,13 @@ public class Preferences {
 	static OWLAPIFirst reasoner = new OWLAPIFirst();
 	private JTextField parkingTextField;
 	private JTextField solarTextField;
+	JCheckBox luxuryCheckbox;
+	JCheckBox silenceCheckbox;
+	JCheckBox petCheckbox;
+	JCheckBox carCheckbox;
 	JCheckBox disabledCheckbox;
-	JCheckBox centerCheckbox;
-	JCheckBox ptCheckbox;
-	JCheckBox natureCheckbox;
-	JCheckBox neighboursCheckbox;
+	JCheckBox energyCheckbox;
+	JCheckBox poolCheckbox;
 
 	public static void main(String[] args) throws OWLOntologyCreationException {
 		EventQueue.invokeLater(new Runnable() {
@@ -238,29 +240,21 @@ public class Preferences {
 				pools =readAndSetIntPreference(poolTextField.getText());
 				housePrefMap.put("amountPool", pools);
 				
+				// Initiliaze these preferences
 				// Disability access
-				int disability = disabledCheckbox.isSelected() ? 1 : -1;
-				housePrefMap.put("disableAccessibility", disability);
+				housePrefMap.put("disableAccessibility", -1);
 				// City center
-				int cityCenter = centerCheckbox.isSelected() ? 1 : -1;
-				housePrefMap.put("isCloseToCityCentre", cityCenter);
+				housePrefMap.put("isCloseToCityCentre", -1);
 				// Close to PT
-				int pt = ptCheckbox.isSelected() ? 1 : -1;
-				housePrefMap.put("isCloseToPT", pt);
+				housePrefMap.put("isCloseToPT", -1);
 				// Nature
-				int nature = natureCheckbox.isSelected() ? 1 : -1;
-				housePrefMap.put("isCloseToNature", nature);
+				housePrefMap.put("isCloseToNature", -1);
 				// Neighbours
-				int neighbours = neighboursCheckbox.isSelected() ? 1 : -1;
-				housePrefMap.put("hasCloseNeighbours", -1);
-				
+				housePrefMap.put("hasCloseNeighbours", -1);			
 				// Parkings
-				int parkings = readAndSetIntPreference(parkingTextField.getText());
-				housePrefMap.put("amountParking", parkings);
-				
+				housePrefMap.put("amountParking", -1);
 				// Solar panels
-				int solar = readAndSetIntPreference(solarTextField.getText());
-				housePrefMap.put("amountSolarPanel", solar);
+				housePrefMap.put("amountSolarPanel", -1);
 
 				//Composition
 				infPrefMap.put("Single", 0);
@@ -277,9 +271,32 @@ public class Preferences {
 				String occupation = (String) occupationList.getSelectedItem();
 				infPrefMap.put(occupation, 1);	
 				
+				//Features
+				// Car owner
+				int carOwner = carCheckbox.isSelected() ? 1 : 0;
+				infPrefMap.put("carOwner", carOwner);
+				// Disabled
+				int disabled = disabledCheckbox.isSelected() ? 1 : 0;
+				infPrefMap.put("Disable", disabled);
+				// Energy saver
+				int energy = energyCheckbox.isSelected() ? 1 : 0;
+				infPrefMap.put("energySaver", energy);
+				// Luxury
+				int luxury = luxuryCheckbox.isSelected() ? 1 : 0;
+				infPrefMap.put("likesLuxury", luxury);
+				// Pet owner
+				int pet = petCheckbox.isSelected() ? 1 : 0;
+				infPrefMap.put("petOwner", pet);
+				// Silence
+				int silence = silenceCheckbox.isSelected() ? 1 : 0;
+				infPrefMap.put("silenceLover", silence);
+				// wantsPool
+				int wantsPool = poolCheckbox.isSelected() ? 1 : 0;
+				infPrefMap.put("wantsPool", wantsPool);
+				
 				
 				//infPrefMap.put("Student", 0);
-				infPrefMap.put("petOwner", 1);
+				//infPrefMap.put("petOwner", 1);
 
 //==============================================================================
 //
@@ -436,20 +453,32 @@ public class Preferences {
 		splitPane_10.setRightComponent(solarTextField);
 		solarTextField.setColumns(10);
 		
-		disabledCheckbox = new JCheckBox("Disability access");
-		leftSide.add(disabledCheckbox);
+		JSplitPane splitPane_11 = new JSplitPane();
+		leftSide.add(splitPane_11);
 		
-		centerCheckbox = new JCheckBox("Close to city center");
-		leftSide.add(centerCheckbox);
+		poolCheckbox = new JCheckBox("Wants pool");
+		splitPane_11.setRightComponent(poolCheckbox);
 		
-		ptCheckbox = new JCheckBox("Close to PT");
-		leftSide.add(ptCheckbox);
+		carCheckbox = new JCheckBox("Owns car");
+		splitPane_11.setLeftComponent(carCheckbox);
 		
-		neighboursCheckbox = new JCheckBox("Close to neighbours");
-		leftSide.add(neighboursCheckbox);
+		JSplitPane splitPane_12 = new JSplitPane();
+		leftSide.add(splitPane_12);
 		
-		natureCheckbox = new JCheckBox("Close to nature");
-		leftSide.add(natureCheckbox);
+		disabledCheckbox = new JCheckBox("Has disability");
+		splitPane_12.setLeftComponent(disabledCheckbox);
+		
+	    energyCheckbox = new JCheckBox("Prefers energy-saving");
+		splitPane_12.setRightComponent(energyCheckbox);
+		
+		luxuryCheckbox = new JCheckBox("Prefers luxury");
+		leftSide.add(luxuryCheckbox);
+		
+		petCheckbox = new JCheckBox("Owns pet");
+		leftSide.add(petCheckbox);
+		
+		silenceCheckbox = new JCheckBox("Prefers silence");
+		leftSide.add(silenceCheckbox);
 
 
 		leftSide.add(btnSubmit);
